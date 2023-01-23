@@ -5,6 +5,10 @@ function App() {
   return (
   <div className="App">
    <h1>hola</h1>
+   <Routes>
+    <Route exact path="/" element={<Landing name = 'Javier' />} />
+   </Routes>
+    
   </div>
   )
 }
